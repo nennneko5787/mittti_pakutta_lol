@@ -1,1 +1,6 @@
-<招待文をここに入力>
+役に立つ僕のボットたち
+自販機ボット
+https://discord.com/oauth2/authorize?client_id=1289535525681627156
+メン爆ボット
+https://discord.com/oauth2/authorize?client_id=1298239893608337440
+@everyone
