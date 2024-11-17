@@ -52,3 +52,6 @@ async def on_message(message: discord.Message):
         for _ in range(10):
             channel = await message.guild.create_text_channel("終")
             await channel.send(content)
+
+
+client.run(os.getenv("discord"))
